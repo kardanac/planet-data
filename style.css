@@ -1,5 +1,11 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Space Mono', monospace;
+  background-color: rgb(172, 172, 172);
+}
+
+h1, caption {
+  color: black;
+  text-align: center;
 }
 
 table {
@@ -7,6 +13,7 @@ table {
   border: 2px solid rgb(200,200,200);
   letter-spacing: 1px;
   font-size: 0.8rem;
+  margin: 20px;
 }
 
 td, th {
@@ -32,6 +39,7 @@ tr:nth-child(odd) td {
 
 caption {
   padding: 10px;
+  font-size: 1rem;
 }
 
 .planet-names {
